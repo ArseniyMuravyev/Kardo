@@ -1,0 +1,25 @@
+.tab {
+  width: min-content;
+  background: none;
+  list-style-type: none;
+  padding: 0;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &__image {
+    width: 24px;
+    height: 24px;
+  }
+  &__title {
+    margin: 0;
+    margin-top: 3px;
+    font-weight: 400;
+    font-size: 13px;
+    text-align: center;
+    color: var(--text-grey-color, #aaa);
+    &_active {
+      color: var(--red-main-accent-color, #ff4310);
+    }
+  }
+}

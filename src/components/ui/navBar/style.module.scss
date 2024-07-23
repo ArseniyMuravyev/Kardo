@@ -1,0 +1,93 @@
+.nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: var(--black-color, #000);
+  width: 100%;
+  min-height: 44px;
+  padding: 3px 16px 18px 8px;
+  &_back {
+    padding: 10px 16px 18px 8px;
+  }
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__icon {
+    margin-left: 8px;
+    width: 144px;
+  }
+  &__back {
+    text-decoration: none;
+    color: var(--red-main-accent-color, #ff4310);
+    position: relative;
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 129%;
+    // margin-top: 8px;
+    &::before {
+      content: '';
+      position: absolute;
+      width: 17px;
+      height: 22px;
+      background: url('../../assets/images/icon/Chevron.svg') center center
+        no-repeat;
+      left: 0;
+    }
+  }
+  &__title {
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 129%;
+    text-align: center;
+    color: var(--white-color, #fff);
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  &__title_large {
+    margin: 0;
+    font-weight: 700;
+    font-size: 43px;
+    text-transform: uppercase;
+    color: var(--white-color, #fff);
+    margin-top: 14px;
+    margin-left: 10px;
+  }
+  &__button-list {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: end;
+  }
+  &__button {
+    width: 24px;
+    height: 24px;
+    margin-left: 16px;
+    &_search {
+      background: url('../../assets/images/icon/search.svg') center center
+        no-repeat;
+    }
+    &_settings {
+      background: url('../../assets/images/icon/settings.svg') center center
+        no-repeat;
+    }
+    &_message {
+      background: url('../../assets/images/icon/message.svg') center center
+        no-repeat;
+    }
+    &_delete {
+      background: url('../../assets/images/icon/delete.svg') center center
+        no-repeat;
+    }
+    &_notice {
+      background: url('../../assets/images/icon/notifications.svg') center
+        center no-repeat;
+    }
+  }
+}
