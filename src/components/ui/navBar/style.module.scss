@@ -28,11 +28,11 @@
     line-height: 129%;
     // margin-top: 8px;
     &::before {
-      content: '';
+      content: "";
       position: absolute;
       width: 17px;
       height: 22px;
-      background: url('../../assets/images/icon/Chevron.svg') center center
+      background: url("../../assets/images/icon/Chevron.svg") center center
         no-repeat;
       left: 0;
     }
@@ -70,23 +70,23 @@
     height: 24px;
     margin-left: 16px;
     &_search {
-      background: url('../../assets/images/icon/search.svg') center center
+      background: url("../../assets/images/icon/search.svg") center center
         no-repeat;
     }
     &_settings {
-      background: url('../../assets/images/icon/settings.svg') center center
+      background: url("../../assets/images/icon/settings.svg") center center
         no-repeat;
     }
     &_message {
-      background: url('../../assets/images/icon/message.svg') center center
+      background: url("../../assets/images/icon/message.svg") center center
         no-repeat;
     }
     &_delete {
-      background: url('../../assets/images/icon/delete.svg') center center
+      background: url("../../assets/images/icon/delete.svg") center center
         no-repeat;
     }
     &_notice {
-      background: url('../../assets/images/icon/notifications.svg') center
+      background: url("../../assets/images/icon/notifications.svg") center
         center no-repeat;
     }
   }

@@ -1,4 +1,4 @@
-# KARDO 
+# KARDO
 
 ## Start the application
 
@@ -9,7 +9,5 @@
 - [React](https://react.dev)
 - [TypeScript](https://www.typescriptlang.org)
 - [Redux Toolkit](https://redux-toolkit.js.org)
-- [MUI](https://mui.com) 
+- [MUI](https://mui.com)
 - [React Hook Form](https://react-hook-form.com)
-
-
