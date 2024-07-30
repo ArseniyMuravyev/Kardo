@@ -1,6 +1,6 @@
 import { FC, ReactNode } from "react";
 import styles from "./Button.module.css";
-import image from "../../assets/icons/right-arrow.svg";
+import { ArrowRight } from "../icons/arrows/ArrowRight";
 
 type Props = {
   children: string;
@@ -30,12 +30,12 @@ export const Button: FC<Props> = ({
     onClick={onClick}
   >
     {icon}
-    {size === "small" && <img src={image} alt="arrow" />}
+    {size === "small" && <ArrowRight disabled={disabled} />}
     {size === "medium" && <span>{children}</span>}
     {size === "large" && (
       <>
         <span>{children}</span>
-        <img src={image} alt="arrow" />
+        <ArrowRight disabled={disabled} />
       </>
     )}
   </button>
