@@ -9,5 +9,5 @@
 - [React](https://react.dev)
 - [TypeScript](https://www.typescriptlang.org)
 - [Redux Toolkit](https://redux-toolkit.js.org)
-- [MUI](https://mui.com)
+- [Storybook](https://storybook.js.org)
 - [React Hook Form](https://react-hook-form.com)
