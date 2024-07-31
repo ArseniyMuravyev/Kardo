@@ -1,6 +1,7 @@
 import { FC, ReactNode } from "react";
 import styles from "./Button.module.css";
 import { ArrowRight } from "../icons/arrows/ArrowRight";
+import clsx from "clsx";
 
 type Props = {
   children: string;
@@ -11,6 +12,7 @@ type Props = {
   size: "small" | "medium" | "large";
   onClick?: () => void;
   color?: "primary" | "secondary";
+  fullWidth?: boolean;
 };
 
 export const Button: FC<Props> = ({
@@ -22,9 +24,16 @@ export const Button: FC<Props> = ({
   size = "medium",
   color = "primary",
   onClick,
+  fullWidth,
 }) => (
   <button
-    className={`${styles.button} ${styles[variant]} ${styles[size]} ${styles[color]} ${disabled ? styles.disabled : ""}`}
+    className={clsx(
+      styles.button,
+      styles[variant],
+      styles[size],
+      styles[color],
+      { [styles.disabled]: disabled, [styles.fullWidth]: fullWidth },
+    )}
     disabled={disabled}
     type={type}
     onClick={onClick}

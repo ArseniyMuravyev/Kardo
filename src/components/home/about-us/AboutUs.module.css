@@ -1,0 +1,17 @@
+.section {
+  margin: 24px 0 0;
+  padding: 50px 16px 40px;
+  width: 100%;
+  background-image: url("/images/white-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 20px;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+}

@@ -1,0 +1,25 @@
+.heading {
+  color: var(--accent-color, #ff4310);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.vertical {
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+}
+
+.h1 {
+  font-size: 44px;
+  line-height: 1.53;
+}
+
+.h2 {
+  font-size: 29px;
+  line-height: 1.366;
+}
+
+.h3 {
+  font-size: 23px;
+  line-height: 1.29;
+}

@@ -1,4 +1,4 @@
-# KARDO
+# Kardo
 
 ## Start the application
 
