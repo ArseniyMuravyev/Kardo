@@ -1,5 +1,4 @@
 .heading {
-  color: var(--accent-color, #ff4310);
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -7,6 +6,14 @@
 .vertical {
   writing-mode: vertical-lr;
   transform: rotate(180deg);
+}
+
+.accent {
+  color: var(--accent-color, #ff4310);
+}
+
+.white {
+  color: var(--smoky-white-color, #f1f1f1);
 }
 
 .h1 {
@@ -22,4 +29,9 @@
 .h3 {
   font-size: 23px;
   line-height: 1.29;
+}
+
+.h4 {
+  font-size: 19px;
+  line-height: 1.239;
 }

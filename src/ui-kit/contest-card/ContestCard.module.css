@@ -1,0 +1,15 @@
+.card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 16px;
+  border: 1px solid var(--smoky-white-color, #f1f1f1);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.description {
+  margin: 12px 0 24px;
+  color: var(--smoky-white-color, #f1f1f1);
+  font-size: 14px;
+  line-height: 1.18;
+}

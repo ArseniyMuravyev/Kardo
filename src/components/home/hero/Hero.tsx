@@ -1,6 +1,7 @@
 import { FC } from "react";
 import styles from "./Hero.module.css";
 import { Button } from "../../../ui-kit/button/Button";
+import { CompetitionCard } from "../../../ui-kit/competition-card/CompetitionCard";
 
 export const Hero: FC = () => {
   return (
@@ -15,6 +16,7 @@ export const Hero: FC = () => {
       <Button variant="filled" size="medium" fullWidth>
         Подать заявку
       </Button>
+      <CompetitionCard title="Соревнования 22-25 августа" />
     </section>
   );
 };

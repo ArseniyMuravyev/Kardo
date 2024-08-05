@@ -9,6 +9,7 @@
   align-items: center;
   cursor: pointer;
   color: var(--smoky-white-color, #f1f1f1);
+  text-decoration: none;
 }
 
 .icon {

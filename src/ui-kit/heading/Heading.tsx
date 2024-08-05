@@ -5,31 +5,64 @@ import clsx from "clsx";
 type Props = {
   children: string;
   direction?: "vertical" | "horizontal";
-  type?: "h1" | "h2" | "h3";
+  color?: "white" | "accent";
+  type: "h1" | "h2" | "h3" | "h4";
 };
 
 export const Heading: FC<Props> = ({
   children,
   direction = "horizontal",
   type,
-}) => {
-  return (
-    <>
-      {type === "h1" && (
-        <h1 className={clsx(styles.heading, styles[direction], styles[type])}>
-          {children}
-        </h1>
-      )}
-      {type === "h2" && (
-        <h2 className={clsx(styles.heading, styles[direction], styles[type])}>
-          {children}
-        </h2>
-      )}
-      {type === "h3" && (
-        <h3 className={clsx(styles.heading, styles[direction], styles[type])}>
-          {children}
-        </h3>
-      )}
-    </>
-  );
-};
+  color = "accent",
+}) => (
+  <>
+    {type === "h1" && (
+      <h1
+        className={clsx(
+          styles.heading,
+          styles[direction],
+          styles[type],
+          styles[color],
+        )}
+      >
+        {children}
+      </h1>
+    )}
+    {type === "h2" && (
+      <h2
+        className={clsx(
+          styles.heading,
+          styles[direction],
+          styles[type],
+          styles[color],
+        )}
+      >
+        {children}
+      </h2>
+    )}
+    {type === "h3" && (
+      <h3
+        className={clsx(
+          styles.heading,
+          styles[direction],
+          styles[type],
+          styles[color],
+        )}
+      >
+        {children}
+      </h3>
+    )}
+    {type === "h4" && (
+      <h4
+        className={clsx(
+          styles.heading,
+          styles[direction],
+          styles[type],
+          styles[color],
+        )}
+      >
+        {children}
+      </h4>
+    )}
+  </>
+);

@@ -3,6 +3,7 @@ import logo from "/icons/logo.svg";
 import clsx from "clsx";
 import { FC } from "react";
 import searchIcon from "/icons/search.svg";
+import notificationIcon from "/icons/notification.svg";
 
 type Props = {
   isMain?: boolean;
@@ -17,10 +18,17 @@ export const NavBar: FC<Props> = ({ isMain, title, isTitle }) => (
     })}
   >
     <div className={styles.wrapper}>
-      {isMain && <img className={styles.icon} src={logo} alt="logo" />}
+      <img className={styles.icon} src={logo} alt="logo" />
     </div>
     {isTitle && <p className={styles.titleLarge}>{title}</p>}
-    <div>
+    <div className={styles.iconWrapper}>
+      {!isMain && (
+        <img
+          src={notificationIcon}
+          alt="notification icon"
+          className={styles.notification}
+        />
+      )}
       <img src={searchIcon} alt="search icon" className={styles.search} />
     </div>
   </header>

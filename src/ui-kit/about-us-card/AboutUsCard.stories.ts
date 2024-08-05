@@ -10,7 +10,11 @@ const meta: Meta<typeof AboutUsCard> = {
 type Story = StoryObj<typeof AboutUsCard>;
 
 export const Default: Story = {
-  args: {},
+  args: {
+    title: "миссия",
+    content:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  },
 };
 
 export default meta;

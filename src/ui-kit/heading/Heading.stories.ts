@@ -10,7 +10,10 @@ const meta: Meta<typeof Heading> = {
 type Story = StoryObj<typeof Heading>;
 
 export const Default: Story = {
-  args: {},
+  args: {
+    children: "Heading",
+    type: "h2",
+  },
 };
 
 export default meta;

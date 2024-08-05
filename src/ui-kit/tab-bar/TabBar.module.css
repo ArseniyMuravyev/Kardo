@@ -8,4 +8,5 @@
   padding: 16px 0;
   background-color: var(--black-color, #000);
   align-items: center;
+  z-index: 10;
 }

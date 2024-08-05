@@ -2,10 +2,11 @@ import { FC } from "react";
 
 type Props = {
   disabled?: boolean;
-  filled?: boolean;
+  grey?: boolean;
+  white?: boolean;
 };
 
-export const ArrowRight: FC<Props> = ({ disabled }) => (
+export const ArrowRight: FC<Props> = ({ disabled, grey, white }) => (
   <svg
     width="24"
     height="24"
@@ -15,10 +16,12 @@ export const ArrowRight: FC<Props> = ({ disabled }) => (
   >
     <path
       d="M9 6L16 12.5L9 19"
-      stroke={disabled ? "#313131" : "#ffffff"}
-      stroke-width="1.5"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      stroke={
+        disabled ? "#313131" : grey ? "#313113" : white ? " #ffffff" : "#ff4310"
+      }
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
   </svg>
 );

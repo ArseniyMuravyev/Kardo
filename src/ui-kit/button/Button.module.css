@@ -8,8 +8,9 @@
   cursor: pointer;
   color: var(--white-color, #ffffff);
   background-color: transparent;
-  z-index: 100;
+  z-index: 1;
   transition: 0.2s opacity ease-in-out;
+  text-decoration: none;
 }
 
 .button:hover {
@@ -29,6 +30,11 @@
   border-color: var(--orange-color, #ff714c);
 }
 
+.outline.grey {
+  border-color: var(--accent-color, #ff4310);
+  color: var(--dark-grey-color, #313131);
+}
+
 .filled {
   border: none;
 }
@@ -43,6 +49,14 @@
 
 .text {
   border: none;
+}
+
+.text.primary {
+  color: var(--accent-color, #ff4310);
+}
+
+.text.secondary {
+  color: var(--orange-color, #ff714c);
 }
 
 :disabled {
