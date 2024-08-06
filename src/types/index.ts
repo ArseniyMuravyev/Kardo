@@ -22,3 +22,9 @@ export type Contest = {
   additionalDescription?: string;
   link: string;
 };
+
+export type Competition = {
+  title: string;
+  startDate: string;
+  endDate: string;
+};

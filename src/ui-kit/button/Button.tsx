@@ -13,8 +13,8 @@ type Props = {
   size: "small" | "medium" | "large";
   onClick?: () => void;
   color?: "primary" | "secondary" | "grey";
-  grey?: boolean;
-  white?: boolean;
+  isGrey?: boolean;
+  isWhite?: boolean;
   fullWidth?: boolean;
   asLink?: boolean;
   link?: string;
@@ -30,8 +30,8 @@ export const Button: FC<Props> = ({
   color = "primary",
   onClick,
   fullWidth,
-  grey,
-  white,
+  isGrey,
+  isWhite,
   asLink,
   link,
 }) => {
@@ -50,12 +50,12 @@ export const Button: FC<Props> = ({
         onClick={onClick}
       >
         {icon}
-        {size === "small" && <ArrowRight disabled={disabled} grey={grey} />}
+        {size === "small" && <ArrowRight disabled={disabled} isGrey={isGrey} />}
         {size === "medium" && <span>{children}</span>}
         {size === "large" && (
           <>
             <span>{children}</span>
-            <ArrowRight disabled={disabled} grey={grey} />
+            <ArrowRight disabled={disabled} isGrey={isGrey} />
           </>
         )}
       </button>
@@ -73,12 +73,12 @@ export const Button: FC<Props> = ({
         to={link ?? "/"}
       >
         {icon}
-        {size === "small" && <ArrowRight disabled={disabled} grey={grey} />}
+        {size === "small" && <ArrowRight disabled={disabled} isGrey={isGrey} />}
         {size === "medium" && <span>{children}</span>}
         {size === "large" && (
           <>
             <span>{children}</span>
-            <ArrowRight disabled={disabled} grey={grey} white={white} />
+            <ArrowRight disabled={disabled} isGrey={isGrey} isWhite={isWhite} />
           </>
         )}
       </Link>

@@ -1,5 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react";
 import { CompetitionCard } from "./CompetitionCard";
+import { competitions } from "../../data";
 
 const meta: Meta<typeof CompetitionCard> = {
   title: "ui-kit/CompetitionCard",
@@ -11,7 +12,7 @@ type Story = StoryObj<typeof CompetitionCard>;
 
 export const Default: Story = {
   args: {
-    title: "Competition title",
+    data: competitions[0],
   },
 };
 

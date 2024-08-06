@@ -1,4 +1,10 @@
-import { SliderItem, DirectionsItem, Tab, Contest } from "../types";
+import {
+  SliderItem,
+  DirectionsItem,
+  Tab,
+  Contest,
+  Competition,
+} from "../types";
 import { HomeIcon } from "../ui-kit/icons/home/HomeIcon";
 import { NewsIcon } from "../ui-kit/icons/news/NewsIcon";
 import { ProfileIcon } from "../ui-kit/icons/profile/ProfileIcon";
@@ -79,5 +85,23 @@ export const contests: Contest[] = [
     title: "проекты",
     description: `Мы создаем условия, чтобы любой желающий смог развивать свои проектные идеи и мечты. Каждый может оформить заявку на получение грантовой поддержки, пройти очную защиту на гранд-финале 22-25 августа и получить деньги на реализацию своего проекта!`,
     link: "/contests/projects",
+  },
+];
+
+export const competitions: Competition[] = [
+  {
+    title: "Региональные отборы",
+    startDate: "27.04.2024",
+    endDate: "10.08.2024",
+  },
+  {
+    title: "Национальные отборы",
+    startDate: "01.01.2024",
+    endDate: "27.07.2024",
+  },
+  {
+    title: "Гранд-финал",
+    startDate: "22.08.2024",
+    endDate: "25.08.2024",
   },
 ];

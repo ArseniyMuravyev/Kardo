@@ -3,6 +3,7 @@ import { Home } from "../pages/home/Home";
 import { Contests } from "../pages/contests/Contests";
 import { Profile } from "../pages/profile/Profile";
 import { News } from "../pages/news/News";
+import { Competitions } from "../pages/competitions/Competitions";
 
 export const router = createBrowserRouter([
   {
@@ -20,5 +21,9 @@ export const router = createBrowserRouter([
   {
     path: "/profile",
     element: <Profile />,
+  },
+  {
+    path: "/contests/competitions",
+    element: <Competitions />,
   },
 ]);

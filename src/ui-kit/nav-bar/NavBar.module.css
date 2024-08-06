@@ -21,25 +21,10 @@
 }
 
 .title {
-  font-weight: 600;
-  font-size: 17px;
-  line-height: 129%;
-  text-align: center;
-  color: var(--white-color, #fff);
-  margin: 0;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-.titleLarge {
-  margin: 0;
   font-weight: 700;
-  font-size: 43px;
-  text-transform: uppercase;
-  color: var(--white-color, #fff);
-  margin-top: 14px;
-  margin-left: 10px;
+  font-size: 23px;
+  line-height: 1.29;
+  color: var(--accent-color, #ff4310);
 }
 
 .search {
@@ -50,4 +35,13 @@
   display: flex;
   gap: 24px;
   align-items: center;
+}
+
+.back {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  width: 72px;
+  display: flex;
+  align-items: start;
 }
