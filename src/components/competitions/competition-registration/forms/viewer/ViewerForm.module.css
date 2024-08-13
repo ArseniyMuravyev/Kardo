@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 16px 16px;
+  margin: 28px 0 0;
+}
+
+.form {
+  margin-top: 24px;
+  gap: 32px;
+}
+
+.hint {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 133%;
+  color: var(--smoky-white-color);
+  margin-bottom: -12px;
+}

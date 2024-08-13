@@ -1,0 +1,30 @@
+.card {
+  width: 358px;
+  display: flex;
+  flex-direction: column;
+  padding: 16px 16px 40px;
+  border: 1px solid var(--smoky-white-color, #f1f1f1);
+  background-color: rgba(255, 255, 255, 0.1);
+  gap: 20px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.title {
+  color: var(--accent-color, #ff4310);
+  font-size: 20px;
+  line-height: 1.26;
+}
+
+.date {
+  font-weight: 700;
+  color: var(--smoky-white-color, #f1f1f1);
+}
+
+.text {
+  color: var(--smoky-white-color, #f1f1f1);
+}

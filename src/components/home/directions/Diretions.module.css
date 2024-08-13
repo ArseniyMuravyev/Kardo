@@ -1,0 +1,8 @@
+.section {
+  margin: 20px 0 50px 17px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 20px;
+  overflow: hidden;
+}

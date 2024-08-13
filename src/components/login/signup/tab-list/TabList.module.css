@@ -1,0 +1,29 @@
+.tabList {
+    margin-top: -12px;
+    margin-bottom: -16px;
+    background-image: url("/images/drawing.png");
+    list-style: none;
+    border-bottom: 1px solid var(--primary-accent-color);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .tab {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    color: var(--smoky-white-color);
+    width: 50%;
+    height: 40px;
+    font-family: var(--accent-font);
+  }
+  
+  .tabActive {
+    color: #c6a918;
+  }

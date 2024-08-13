@@ -1,0 +1,57 @@
+@font-face {
+  font-family: "Grtsk Tera";
+  src: url("../assets/fonts/GrtskTera-Bold.eot");
+  src:
+    local("Grtsk Tera Bold"),
+    local("GrtskTera-Bold"),
+    url("../assets/fonts/GrtskTera-Bold.woff2") format("woff2"),
+    url("../assets/fonts/GrtskTera-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Grtsk Tera";
+  src: url("../assets/fonts/GrtskTera-Semibold.eot");
+  src:
+    local("Grtsk Tera Bold"),
+    local("GrtskTera-Semibold"),
+    url("../assets/fonts/GrtskTera-Semibold.woff2") format("woff2"),
+    url("../assets/fonts/GrtskTera-Semibold.woff") format("woff");
+  font-weight: semibold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Grtsk Tera";
+  src: url("../assets/fonts/GrtskTera-Medium.eot");
+  src:
+    local("Grtsk Tera Medium"),
+    local("GrtskTera-Medium"),
+    url("../assets/fonts/GrtskTera-Medium.woff2") format("woff2"),
+    url("../assets/fonts/GrtskTera-Medium.woff") format("woff");
+  font-weight: medium;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Grtsk Tera";
+  src: url("../assets/fonts/GrtskTera-Regular.eot");
+  src:
+    local("Grtsk Tera Medium"),
+    local("GrtskTera-Regular"),
+    url("../assets/fonts/GrtskTera-Regular.woff2") format("woff2"),
+    url("../assets/fonts/GrtskTera-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'password_webfont';
+  src: url('../assets/fonts/password-webfont.eot');
+  src: url('../assets/fonts/password-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../assets/fonts/password-webfont.woff2') format('woff2'),
+       url('../assets/fonts/password-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}

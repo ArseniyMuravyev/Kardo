@@ -1,0 +1,27 @@
+:root {
+  --accent-color: #ff4310;
+  --black-color: #000000;
+  --white-color: #ffffff;
+  --dark-grey-color: #313131;
+  --smoky-white-color: #f1f1f1;
+  --orange-color: #ff714c;
+  --bismarck-color: #a62705;
+  --pearl-orange-color: #bf5539;
+  --grey-color: #808080;
+  --dull-grey-color: #676767;
+  --silver-color: #bfbfbf;
+  --fields-color: #39393a;
+  --disabled-color: #454444;
+  --brick-color: #995846;
+  --red-orange-color: #cc5635;
+  --grey-brown-color: #664b43;
+  --light-brown-color: #aa5943;
+  --blue-color: #475480;
+  --grey-green-color: #315653;
+  --sea-wave-color: #0ff5ff;
+  --green-color: #0fff67;
+
+  --accent-font: "Grtsk Tera", Arial, sans-serif;
+  --main-font: "Montserrat", Arial, sans-serif;
+  --password-font: "password_webfont";
+}

@@ -1,0 +1,12 @@
+.tabBar {
+  display: flex;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  justify-content: space-around;
+  padding: 16px 0;
+  background-color: var(--black-color, #000);
+  align-items: center;
+  z-index: 10;
+}

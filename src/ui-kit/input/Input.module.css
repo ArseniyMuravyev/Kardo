@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  box-sizing: border-box;
+  padding: 11px 16px;
+  border-radius: 5px;
+  background: var(--fields-color);
+}
+
+.container__error {
+  border: 1px solid var(--bismarck-color);
+  padding: 13px 15px;
+}
+
+.container__disabled {
+  opacity: 0.5;
+}
+
+.input {
+  background: var(--fields-color);
+  width: 100%;
+  border: none;
+  outline: none;
+  caret-color: var(--pearl-orange-color);
+  color: var(--smoky-white-color);
+  height: 24px;
+}
+
+.input:disabled {
+  cursor: default;
+  caret-color: transparent;
+}
+
+.button {
+  background: none;
+  border: none;
+}

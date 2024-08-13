@@ -1,0 +1,44 @@
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.label {
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 129%;
+  padding: 4px;
+}
+
+.label:empty {
+  display: none;
+}
+
+.hint {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 133%; 
+  display: flex;
+  align-items: center;
+}
+
+.hint::before {
+  content: url(/icons/info.svg);
+  width: 12px;
+  height: 12px;
+  align-items: center;
+  margin-right: 3px;
+}
+
+.hint__error {
+  color: var(--bismarck-color);
+}
+
+.hint__error.hint::before {
+  content: url(/icons/info_error.svg);
+}
+
+.hint:empty {
+  display: none;
+}

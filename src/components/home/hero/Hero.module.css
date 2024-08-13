@@ -1,0 +1,25 @@
+.section {
+  padding: 0 16px;
+}
+
+.title {
+  text-transform: uppercase;
+  color: var(--color-white, #fff);
+  font-size: 44px;
+  width: 100%;
+  text-align: center;
+  margin: 72px 0 0;
+  line-height: 1.53;
+  font-family: var(--accent-font, "Grtsk Tera", Arial, sans-serif);
+}
+
+.image {
+  background-color: transparent;
+  width: 100%;
+}
+
+.text {
+  text-align: center;
+  line-height: 1.219;
+  margin-bottom: 16px;
+}

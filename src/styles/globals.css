@@ -1,0 +1,15 @@
+@import "./variables.css";
+@import "./fonts.css";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--main-font, "Montserrat", Arial, sans-serif);
+  color: var(--white-color, #ffffff);
+  padding: 0;
+  overflow-x: hidden;
+}

@@ -1,0 +1,22 @@
+.section {
+  padding: 0;
+  width: 100%;
+}
+
+.title {
+  box-sizing: border-box;
+  background-color: var(--black-color);
+  padding: 3px 16px 8px;
+  margin: 51px 0 0;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 126%;
+  color: var(--accent-color);
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  padding: 24px 16px;
+  background-color: var(--dark-grey-color);
+}

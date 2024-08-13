@@ -1,0 +1,38 @@
+.login {
+  min-height: 100vh;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("/images/BackgroundLogin.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: space-between;
+}
+
+.image {
+  position: absolute;
+  top: 152px;
+}
+
+.header {
+  box-sizing: border-box;
+  display: flex;
+  width: 100%;
+  margin-top: 54px;
+  padding-right: 16px;
+  padding-left: 16px;
+  justify-content: space-between;
+}
+
+.content {
+  z-index: 2;
+  box-sizing: border-box;
+  border-radius: 16px 16px 0 0;
+  width: 100%;
+  padding: 20px 16px 48px 16px;
+  background-color: var(--dark-grey-color);
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}

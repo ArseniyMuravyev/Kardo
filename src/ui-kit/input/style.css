@@ -1,0 +1,45 @@
+input[type="date"] {
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  height: 24px;
+  color-scheme: revert; 
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  background-image: url(/icons/calendar.svg);
+  height: 24px;
+  width: 24px;
+}
+
+input[type="password"] {
+  font-family: var(--password-font);
+}
+
+input[type="password"]::placeholder {
+  font-family: var(--main-font);
+}
+
+input::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  color: var(--grey-color);
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus
+input:-webkit-autofill, 
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border:none !important;
+  -webkit-text-fill-color: var(--smoky-white-color) !important;
+  -webkit-box-shadow: 0 0 0px 1000px var(--fields-color) inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
